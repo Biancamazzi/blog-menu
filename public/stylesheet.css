@@ -31,10 +31,7 @@
     background-color: rgba(0,0,0,0.5);
     color:#fff;
     text-align: center;
-    top: 500px;
-    width: 250px;
-    line-height: 20px;
-    height: 30px;
+
     }
   .Repetio-de-grade-1 {
     width: 1323.2px;
@@ -57,9 +54,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline   
-
+    align-items: stretch   
   }
+  .card{
+        height: 400px;
+        margin: 2%;
+        width: 25%;
+          }
   
 
 }
