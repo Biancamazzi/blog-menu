@@ -2,6 +2,13 @@
     flex-direction: row;
     display: flex;
 }
+.inicio{
+    height: 1320px;
+    width: 100%;
+    background-image:url(img/oi.png);
+    background-size:cover
+    
+       }
 .Horizontal-gallery {
     width: 1520px;
     height: 1320px;
@@ -12,8 +19,7 @@
 .abastecaseunegocio {
     
     position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    color:#fff;
+    color: white
     text-align: center;
     top: 100px;
     width: 100px;
@@ -30,44 +36,6 @@
     line-height: 20px;
     height: 30px;
     }
-  .Navbar-1 {
-    width: 1665px;
-    height: 130px;
-    object-fit: contain;
-  }
-  .definicao{
-    position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    color:#fff;
-    text-align: center;
-    top: 100px;
-    width: 100px;
-    line-height: 20px;
-    height: 20px;
-  
-  }
-  .Caminho-8043 {
-    width: 1920px;
-    height: 1184px;
-    object-fit: contain;
-    background-color: #ffffff;
-    
-  }
-  .Retngulo-2 {
-    width: 260px;
-    height: 46px;
-    border-radius: 22px;
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.11);
-    background-image: linear-gradient(91deg, #6294a2, #58c3dd);
-  }
-  .Retngulo-4 {
-    width: 674px;
-    height: 38px;
-    border-radius: 4px;
-    border: solid 1px #efefef;
-    background-color: #fcfcfc;
-  }
-
   .Repetio-de-grade-1 {
     width: 1323.2px;
     height: 1151.6px;
@@ -82,6 +50,14 @@
     width: 1364px;
     height: 234px;
     box-shadow: 0 -3px 46px 0 rgba(0, 0, 0, 0.03);
-    background-color: #fcfcfc;
+    background-color: #fcfcfc`
+}
+  .conteudo{
+    flex-direction: row;
+    
+
+  }
   
+
+}
 
