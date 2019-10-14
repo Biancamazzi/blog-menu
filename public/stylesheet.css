@@ -62,7 +62,10 @@
         width: 25%;
         border: transparent;
           }
-  
+  .card-textdata{
+      color: gray;
+      font-size: 12px;
+  }
 
 }
 
