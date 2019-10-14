@@ -31,6 +31,7 @@
     width: 100px;
     line-height: 20px;
     height: 20px;
+    font-size: 72px;
 }
 .recebaebook{
     background-color: rgba(0,0,0,0.5);
@@ -47,15 +48,15 @@
     width: 1364px;
     height: 234px;
     box-shadow: 0 -3px 46px 0 rgba(0, 0, 0, 0.03);
-    background-color: #fcfcfc`
+    background-color: #fcfcfc;
 }
   .flex-container{
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch   
-  }
+    align-items: stretch;
+      }
   .card{       
         border: transparent;
           }
