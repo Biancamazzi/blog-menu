@@ -53,15 +53,17 @@
     align-items: stretch   
   }
   .card{
-        height: 400px;
-        margin: 2%;
-        width: 25%;
+       
         border: transparent;
           }
   .card-textdata{
       color: gray;
       font-size: 12px;
   }
-
+.cardlink{
+    height: 400px;
+    margin: 2%;
+    width: 25%;
+    color: black;
 }
 
