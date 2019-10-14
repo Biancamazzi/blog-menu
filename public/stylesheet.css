@@ -1,5 +1,6 @@
 .row {
-	flex-direction: row;
+    flex-direction: row;
+    display: flex;
 }
 body {
     background-image: url;
