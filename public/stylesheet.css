@@ -45,16 +45,7 @@ nav a{
     position: absolute;
     font-family: 'Roboto', sans-serif;
 }
-#abastecaseunegocio {    
-    color: white;
-    top: 10px;
-    height: 20px;
-    position: relative;
-    left: 250px;
-    width: 400px;
-    text-shadow: 3px 3px 2px #000; 
-    font-family: 'Roboto', sans-serif;
-}
+
 #abastecaseunegocio h2 { 
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
