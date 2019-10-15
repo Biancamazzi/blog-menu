@@ -1,6 +1,7 @@
 .row {
     flex-direction: row;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 .inicio{
     height: 700px;
@@ -8,6 +9,7 @@
     background-image:url(img/oi.png);
     background-size:cover;
     color: white; 
+    font-family: 'Roboto', sans-serif;
             
        }
 nav a{
@@ -15,6 +17,7 @@ nav a{
     position: relative;
     top: 100px;
     right: 60px;
+    font-family: 'Roboto', sans-serif;
 }
 #descricao{
     background: rgba(0, 0, 0, 0.5);
@@ -24,19 +27,22 @@ nav a{
     top: 400px;  
     padding-left: 60px; 
     padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 .inicio-artigo{
     height: 400px;
     width: 100%;
     background-image:url(img/oi.png);
-    background-size:cover
+    background-size:cover;
+    font-family: 'Roboto', sans-serif;
 }
 .Horizontal-gallery {
     width: 1520px;
     height: 1320px;
     object-fit: contain;
     float: left;
-    position: absolute
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
 }
 #abastecaseunegocio {    
     color: white;
@@ -45,10 +51,12 @@ nav a{
     position: relative;
     left: 250px;
     width: 400px;
-    text-shadow: 3px 3px 2px #000
+    text-shadow: 3px 3px 2px #000; 
+    font-family: 'Roboto', sans-serif;
 }
 #abastecaseunegocio h2 { 
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
     
 
  }
@@ -56,6 +64,7 @@ nav a{
     text-align: center;
     margin: 0 auto;
     width: 557px;
+    font-family: 'Roboto', sans-serif;
     }
  
   .flex-container{
@@ -64,19 +73,23 @@ nav a{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
+    font-family: 'Roboto', sans-serif;
       }
   .card{       
         border: transparent;
+        font-family: 'Roboto', sans-serif;
           }
   .card-textdata{
       color: gray;
       font-size: 12px;
+      font-family: 'Roboto', sans-serif;
   }
 .cardlink{
     height: 400px;
     margin: 2%;
     width: 25%;
     color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer */
@@ -86,7 +99,8 @@ nav a{
     height: 200px;
     display: flex;
     flex-wrap:no-wrap;
-    justify-content: space-around; 
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif; 
   
   }  
   .item{
@@ -94,6 +108,7 @@ nav a{
     width: 345px;
     color: black; 
     margin:5px;
+    font-family: 'Roboto', sans-serif;
   }
   
 
