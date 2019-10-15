@@ -46,7 +46,8 @@ nav a{
 }
 .recebaebooks{
     text-align: center;
-
+    margin: 0 auto;
+    width: 557px;
     }
  
   .flex-container{
