@@ -8,7 +8,7 @@
     background-image:url(img/oi.png);
     background-size:cover;
     color: white; 
-        
+            
        }
 nav a{
     color: white;
@@ -44,25 +44,11 @@ nav a{
     height: 20px;
     font-size: 72px;
 }
-.recebaebook{
-    background-color: rgba(0,0,0,0.5);
-    color:#fff;
+.recebaebooks{
     text-align: center;
-    width: 1520px;
 
     }
-  
-  .Web-1920-1 {
-    width: 1920px;
-    height: 3314px;
-    background-color: #ffffff;
-  }
-  .background {
-    width: 1364px;
-    height: 234px;
-    box-shadow: 0 -3px 46px 0 rgba(0, 0, 0, 0.03);
-    background-color: #fcfcfc;
-}
+ 
   .flex-container{
     flex-direction: row;
     display: flex;
