@@ -12,14 +12,18 @@
        }
 nav a{
     color: white;
+    position: relative;
+    top: 100px;
+    right: 60px;
 }
 #descricao{
     background: rgba(0, 0, 0, 0.5);
     height:120px;
-    font-size: 30px;
+    font-size: 25px;
     position: relative; 
     top: 400px;  
     padding-left: 60px; 
+    padding-top: 25px;
 }
 .inicio-artigo{
     height: 400px;
@@ -41,7 +45,13 @@ nav a{
     position: relative;
     left: 250px;
     width: 400px;
+    text-shadow: 3px 3px 2px #000
 }
+#abastecaseunegocio h2 { 
+    font-size: 40px;
+    
+
+ }
 .recebaebooks{
     text-align: center;
     margin: 0 auto;
@@ -68,7 +78,4 @@ nav a{
     width: 25%;
     color: black;
 }
-.descricao{
 
-    
-}
