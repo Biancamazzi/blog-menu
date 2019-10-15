@@ -79,3 +79,23 @@ nav a{
     color: black;
 }
 
+/* footer */
+
+#content{
+    background-color: #ededed;
+    height: 200px;
+    display: flex;
+    flex-wrap:no-wrap;
+    justify-content: space-around;
+    
+  
+  }
+  
+  .item{
+    height: 100px;  
+    width: 345px;
+    color: black; 
+    margin:5px;
+  }
+  
+
