@@ -86,11 +86,9 @@ nav a{
     height: 200px;
     display: flex;
     flex-wrap:no-wrap;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
   
-  }
-  
+  }  
   .item{
     height: 100px;  
     width: 345px;
