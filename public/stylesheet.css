@@ -19,7 +19,7 @@ nav a{
     font-size: 30px;
     position: relative; 
     top: 400px;  
-    padding-left: 10px; 
+    padding-left: 60px; 
 }
 .inicio-artigo{
     height: 400px;
@@ -34,15 +34,13 @@ nav a{
     float: left;
     position: absolute
 }
-.abastecaseunegocio {    
-    position: absolute;
+#abastecaseunegocio {    
     color: white;
-    text-align: center;
-    top: 100px;
-    width: 100px;
-    line-height: 20px;
+    top: 10px;
     height: 20px;
-    font-size: 72px;
+    position: relative;
+    left: 250px;
+    width: 400px;
 }
 .recebaebooks{
     text-align: center;
