@@ -6,17 +6,12 @@
     height: 1320px;
     width: 100%;
     background-image:url(img/oi.png);
-    background-size:cover
+    background-size:cover;
+    color: white; 
         
        }
-#descricao{
-    color:white
-}
-#Abastecaseunegocio{
-    color:white
-}
-#nav-item{
-    color:white
+nav a{
+    color: white;
 }
 .inicio-artigo{
     height: 400px;
