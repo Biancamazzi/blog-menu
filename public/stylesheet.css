@@ -7,9 +7,17 @@
     width: 100%;
     background-image:url(img/oi.png);
     background-size:cover
-    
+        
        }
-
+#descricao{
+    color:white
+}
+#Abastecaseunegocio{
+    color:white
+}
+#nav-item{
+    color:white
+}
 .inicio-artigo{
     height: 400px;
     width: 100%;
@@ -72,4 +80,7 @@
     width: 25%;
     color: black;
 }
+.descricao{
 
+    
+}
