@@ -73,3 +73,19 @@
     color: black;
 }
 
+/* footer */
+
+#content{
+  background-color: gray;
+  height: 500px;
+  display: flex;
+
+}
+
+.item{
+  height: 100px;
+  width: 100px;
+  color: black;
+  background-color: white;
+  margin:5px;
+}
