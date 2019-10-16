@@ -96,6 +96,12 @@ nav a{
     
    
   }
+
+  img{
+      width: 100%;
+      display: block;
+      margin: auto;
+  }
    
   .item{
     height: 100px;  
