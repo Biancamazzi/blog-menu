@@ -4,9 +4,9 @@
     font-family: 'Roboto', sans-serif;
 }
 .inicio{
-    height: 700px;
+    height: 455px;
     width: 100%;
-    background-image:url(img/oi.png);
+    background-image:url(img/oi.jpg);
     background-size:cover;
     color: white; 
     font-family: 'Roboto', sans-serif;               
@@ -21,13 +21,13 @@ nav a{
 }
 #descricao{
     background: rgba(0, 0, 0, 0.5);
-    height:120px;
     font-size: 20px;
-    position: relative; 
-    top: 400px;  
-    padding-left: 60px; 
-    padding-top: 25px;
+    position: relative;
+    top: 125px;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
+    width: 50%;
+    left: 600px;
 }
 .inicio-artigo{
     height: 400px;
@@ -139,6 +139,19 @@ nav a{
     .conteudo{
         padding:0px;
         width: 90%;
+    }
+    #descricao{
+        font-size: 16px;
+        position: relative;
+        top: 125px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        left: 0px;
+        }
+
+    .nav a {
+        top: 0px;
+
     }
         
 }
