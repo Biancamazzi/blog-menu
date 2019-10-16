@@ -85,25 +85,26 @@ nav a{
 }
 
 /* footer */
-
 #content{
+    font-family: 'Gill Sans';
     background-color: #ededed;
     height: 200px;
     display: flex;
-    flex-wrap:no-wrap;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif; 
-  
-  }  
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-content: stretch;
+    
+   
+  }
+   
   .item{
     height: 100px;  
-    width: 345px;
+    width: 445px;
     color: black; 
     margin:5px;
-    font-family: 'Roboto', sans-serif;
   }
-
- .titulo1{
-     text-align: center;
- }  
-
+   
+  #laranja {
+     color:orange;
+  }
+  
