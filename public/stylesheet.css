@@ -1,91 +1,109 @@
 .row {
     flex-direction: row;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 .inicio{
-    height: 1320px;
+    height: 700px;
     width: 100%;
     background-image:url(img/oi.png);
-    background-size:cover
-    
+    background-size:cover;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+                
        }
-
+nav a{
+    color: white;
+    position: relative;
+    top: 100px;
+    right: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px 2px #000; 
+}
+#descricao{
+    background: rgba(0, 0, 0, 0.5);
+    height:120px;
+    font-size: 20px;
+    position: relative; 
+    top: 400px;  
+    padding-left: 60px; 
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
 .inicio-artigo{
     height: 400px;
     width: 100%;
     background-image:url(img/oi.png);
-    background-size:cover
+    background-size:cover;
+    font-family: 'Roboto', sans-serif;
 }
 .Horizontal-gallery {
     width: 1520px;
     height: 1320px;
     object-fit: contain;
     float: left;
-    position: absolute
-}
-.abastecaseunegocio {    
     position: absolute;
-    color: white;
-    text-align: center;
-    top: 100px;
-    width: 100px;
-    line-height: 20px;
-    height: 20px;
-    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
 }
-.recebaebook{
-    background-color: rgba(0,0,0,0.5);
-    color:#fff;
-    text-align: center;
-    width: 1520px;
 
+#abastecaseunegocio h2 { 
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    
+
+ }
+.recebaebooks{
+    text-align: center;
+    margin: 0 auto;
+    width: 557px;
+    font-family: 'Roboto', sans-serif;
     }
-  
-  .Web-1920-1 {
-    width: 1920px;
-    height: 3314px;
-    background-color: #ffffff;
-  }
-  .background {
-    width: 1364px;
-    height: 234px;
-    box-shadow: 0 -3px 46px 0 rgba(0, 0, 0, 0.03);
-    background-color: #fcfcfc;
-}
+ 
   .flex-container{
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
+    font-family: 'Roboto', sans-serif;
       }
   .card{       
         border: transparent;
+        font-family: 'Roboto', sans-serif;
           }
   .card-textdata{
       color: gray;
-      font-size: 12px;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
   }
 .cardlink{
     height: 400px;
     margin: 2%;
     width: 25%;
     color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer */
 
 #content{
-  background-color: gray;
-  height: 500px;
-  display: flex;
+    background-color: #ededed;
+    height: 200px;
+    display: flex;
+    flex-wrap:no-wrap;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif; 
+  
+  }  
+  .item{
+    height: 100px;  
+    width: 345px;
+    color: black; 
+    margin:5px;
+    font-family: 'Roboto', sans-serif;
+  }
 
-}
+ .titulo1{
+     text-align: center;
+ }  
 
-.item{
-  height: 100px;
-  width: 100px;
-  color: black;
-  background-color: white;
-  margin:5px;
-}
