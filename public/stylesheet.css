@@ -126,7 +126,16 @@ nav a{
         width: 100%;
         font-size: 15px;
     }
+    .conteudo{
+        padding:0px;
+        width: 80%;
 
+    }
+
+
+}
+.conteudo img{
+    width: 100%;
 }
 
 
