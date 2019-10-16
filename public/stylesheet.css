@@ -9,8 +9,7 @@
     background-image:url(img/oi.png);
     background-size:cover;
     color: white; 
-    font-family: 'Roboto', sans-serif;
-                
+    font-family: 'Roboto', sans-serif;               
        }
 nav a{
     color: white;
@@ -92,8 +91,7 @@ nav a{
     display: flex;
     flex-wrap:nowrap;
     justify-content: center;
-    align-content: stretch;
-    
+    align-content: stretch;   
    
   }
    
@@ -113,4 +111,23 @@ nav a{
      color:orange;
   }
   
+
+  @media (max-width: 750px) {
+    .cardlink{
+        width: 100%;}
+
+    #content h4{
+        display: none ;
+    }      
+    #content h5 {
+        font-size: 16px;
+    }
+    .recebaebooks{
+        width: 100%;
+        font-size: 15px;
+    }
+
+}
+
+
 
