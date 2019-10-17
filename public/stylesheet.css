@@ -83,10 +83,32 @@ nav a{
     font-family: 'Roboto', sans-serif;
 }
 
+#button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#button:hover {
+	background-color:#5cbf2a;
+}
+
+#button:active {
+	position:relative;
+	top:1px;
+}
+
 /* footer */
 #content{
     font-family: 'Roboto';
-    background-color: #ededed;
+    background-color: #3b3b3b;
     height: 200px;
     display: flex;
     flex-wrap:nowrap;
@@ -98,7 +120,7 @@ nav a{
   .item{
     height: 100px;  
     width: 445px;
-    color: black; 
+    color: white; 
     margin:5px;
   }
 
