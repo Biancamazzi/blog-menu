@@ -38,7 +38,7 @@ app.post('/leads', (req, res) => {
     const data = req.body;
     var curret_time = new Date();
     curret_time.setHours(curret_time.getHours() -3);
-    var curret_time = curret_time.getFullYear() + '-' +     ("0" + (curret_time.getMonth() + 1)).slice(-2)  + '-' +      ("0" + curret_time.getDate()).slice(-2)   + ' ' + ("0" + (curret_time.getHours() + 1)).slice(-2) + ':' + ("0" + (curret_time.getMinutes() + 1)).slice(-2) + ":" + ("0" + (curret_time.getSeconds() + 1)).slice(-2);
+    var curret_time = curret_time.getFullYear() + '-' +     ("0" + (curret_time.getMonth() + 1)).slice(-2)  + '-' +      ("0" + curret_time.getDate()).slice(-2)   + ' ' + ("0" + curret_time.getHours()).slice(-2) + ':' + ("0" + curret_time.getMinutes()).slice(-2) + ":" + ("0" + curret_time.getSeconds()).slice(-2);
 
 
     data.data_hora = curret_time
