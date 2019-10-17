@@ -37,6 +37,32 @@ app.get('/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-re
     res.sendFile(__dirname + '/views/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-restaurante.html')
 })
 
+app.post("/pdf", (req, res) =>{
+    console.log(req.body);
+    const data = req.body;
+    var curret_time = new Date();
+    curret_time.setHours(curret_time.getHours() -3);
+    var curret_time = curret_time.getFullYear() + '-' +     ("0" + (curret_time.getMonth() + 1)).slice(-2)  + '-' +      ("0" + curret_time.getDate()).slice(-2)   + ' ' + ("0" + curret_time.getHours()).slice(-2) + ':' + ("0" + curret_time.getMinutes()).slice(-2) + ":" + ("0" + curret_time.getSeconds()).slice(-2);
+
+
+    data.data_hora = curret_time
+
+    var ip = (req.headers['x-forwarded-for'] || '').split(',')[0]|| 
+        req.connection.remoteAddress || 
+        req.socket.remoteAddress || 
+        req.connection.socket.remoteAddress
+
+
+
+
+    data.ip = ip;
+
+    const lead = Lead.create(data);
+    
+    res.sendFile(__dirname + '/views/E-book.pdf')
+
+})
+
 app.post('/leads', (req, res) => {
     console.log(req.body);
     const data = req.body;
