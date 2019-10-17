@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150060744-1"></script>
 <script>
  window.dataLayer = window.dataLayer || [];
@@ -11,13 +11,12 @@
 </script>
     <meta charsert="utf-8" />
     <meta name= "description" content="Um Blog sobre negócios voltado para o público varejista" />
-    <meta name="keywords" content="restaurante, comercio, fornecedor, compra, alimentação, comida, cerveja, produto" />
+    <meta name="keywords" content="restaurante, comercio, fornecedor, compra, alimentação, comida, cerveja, produto, comerciantes, comerciante" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Abastecendo seu negocio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=da208153dcea5' async='true'></script>
   </style>  
     </head>
   <body>
@@ -25,29 +24,35 @@
       <nav>
         <ul class="nav justify-content-end">
           <li id="nav-item1">
-            <a class="nav-link active" href="/index.html">HOME</a>
+            <a class="nav-link active" href="/">HOME</a>
           </li>
           <li id="nav-item3">
-            <a class="nav-link" href="/ebook.html">EBOOK</a>
+            <a class="nav-link" href="/ebook">EBOOK</a>
           </li>
         </ul>
       </nav>
       <div id="descricao"> <b>Abasteça seu negócio vem com informações e dicas tecnológicas para você gerir seu negócio com mais efetividade e rapidez. Queremos ajudar você a conhecer as mais novas ferramentas do mercado, as mais modernas soluções e boas práticas. Para que você entregue a melhor experiencia para seu cliente gastando pouco, com os melhores produtos e gerenciando efetivamente seu estoque.</b>
       </div>
     </div>
- 
     <br>
+ 
     <div class="recebaebooks">
       <h3><b>Receba os nossos e-books :)</b></h3>
-       <div class="poptin-embedded" data-id="51d158b7a631e"></div>
+      <form action="/leads" method="POST">
+        <input type="text" name="name" style="width: 300px" placeholder="Nome"><br>
+        <input type="text" name="email" style="margin-top: 5px; width: 300px" placeholder="Seu email profissional"><br>
+        <input type="submit" style="margin-top: 5px;
+        width: 300px;
+        border-radius: 5px;
+        background: #d59b15;
+        border: #966e11 1px solid;" value="Enviar">
+    </form>
     </div>
-    <br>
-
-      
+     
     
     </div>
     <section class="flex-container">
-      <a class="cardlink" href="\Artigos1.html">
+      <a class="cardlink" href="\05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-restaurante">
         <div class="card">
           <img src="img/card1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -57,14 +62,39 @@
           </div>
         </div>
       </a>
+      <a class="cardlink" href="\gestao-de-estoque-ativa-desafios-e-oportunidades">
+        <div class="card">
+          <img src="img/card2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-text"><b>Gestão de estoque ativa, desafios e oportunidades</b></h6>
+            <p class="card-text">Entender as necessidades e oportunidades do seu estoque pode fazer a diferença na entrada e saída dos produtos, garantindo um melhor fluxo de caixa.
+                .</p>
+            
+            <p class="card-textdata"> Natália Nogueira Ferreira Souza </p>
+          </div>
+        </div>
+      </a>
+      <a class="cardlink" href="\conheca-a-estrategia-para-baratear-o-custo-de-seu-comercio-em-ate-40">
+        <div class="card">
+          <img src="img/card3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-text"><b>Conheça a estratégia para baratear o custo do seu comércio em até 40%</b></h6>
+            <p class="card-text">Saiba como os pequenos comerciantes estão conseguindo baratear seu produto final, agregando qualidade e proporcionando melhores experiências aos seus clientes.</p>
+            <p class="card-textdata"> Kewin Moya</p>
+          </div>
+        </div>
+      </a>
 
     </section>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+    <script src="main.js"></script>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/7.2.0/firebase-app.js"></script>
     <!-- TODO: Add SDKs for Firebase products that you want to use
       https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="/__/firebase/7.2.0/firebase-analytics.js"></script>
+
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -73,23 +103,23 @@
   </body>
  
   <footer>
-      <section id="content">
-        <article class="item"> 
-          <img src="img/abasteca_logo.png" width="250px" />
-          <h5>www. <b id="laranja">abastecaseunegocio</b>.com.br </h5>    
-  
-        </article> 
-            
-        <article class="item"> 
-      
-      <h4><b>Follow Us</b></h4>
-      <p> <img src="img/facebook_logo.png" width="30px" /> <a href="https://www.facebook.com/abastecaseunegocio"/> Facebook</a></p>
-      <p> <img src="img/instagram_logo.png" width="30px" /> <a href="https://www.instagram.com/abastecaseunegocio/"/> Instagram</a></p>
-      
-      
-      </article>
-      
-      </section>
-    </footer>
+    <section id="content">
+      <article class="item"> 
+        <img src="img/abasteca_logo.png" width="250px" />
+        <h5>www. <b id="laranja">abastecaseunegocio</b>.com.br </h5>    
+
+      </article> 
+          
+      <article class="item"> 
+    
+    <h4><b>Follow Us</b></h4>
+    <p> <img src="img/facebook_logo.png" width="30px" /> <a href="https://www.facebook.com/abastecaseunegocio"> Facebook</a></p>
+      <p> <img src="img/Instagram_logo.png" width="30px" /> <a href="https://www.instagram.com/abastecaseunegocio/"> Instagram</a></p>
+    
+    
+    </article>
+    
+    </section>
+  </footer>
 
 </html>
