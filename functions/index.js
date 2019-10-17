@@ -33,6 +33,10 @@ app.get('/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-re
     res.sendFile(__dirname + '/views/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-restaurante.html')
 })
 
+app.get('/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-restaurante.html', (req, res) => {
+    res.sendFile(__dirname + '/views/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-restaurante.html')
+})
+
 app.post('/leads', (req, res) => {
     console.log(req.body);
     const data = req.body;
