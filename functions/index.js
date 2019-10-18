@@ -37,6 +37,10 @@ app.get('/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-re
     res.sendFile(__dirname + '/views/05-formas-para-transformar-a-gestao-de-compras-e-suprimentos-do-seu-restaurante.html')
 })
 
+app.get('/a-arte-de-empratar', (req, res) => {
+    res.sendFile(__dirname + '/views/a-arte-de-empratar.html')
+})
+
 app.post("/pdf", (req, res) =>{
     console.log(req.body);
     const data = req.body;
