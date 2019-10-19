@@ -41,6 +41,15 @@ app.get('/a-arte-de-empratar', (req, res) => {
     res.sendFile(__dirname + '/views/a-arte-de-empratar.html')
 })
 
+app.get('/entrevista-com-eduardo-mandel', (req, res) => {
+    res.sendFile(__dirname + '/views/entrevista-com-eduardo-mandel.html')
+})
+
+app.get('/entrevista-com-ex-executivo-do-gpa-e-carrefour', (req, res) => {
+    res.sendFile(__dirname + '/views/entrevista-com-ex-executivo-do-gpa-e-carrefour.html')
+})
+
+
 app.post("/pdf", (req, res) =>{
     console.log(req.body);
     const data = req.body;
