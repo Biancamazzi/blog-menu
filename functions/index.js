@@ -14,8 +14,13 @@ const Lead = require('./model/lead')
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/lp.html')
+})
+
+app.get('/blog', (req, res) => {
     res.sendFile(__dirname + '/views/index.html')
 })
+
 
 app.get('/ebook', (req, res) => {
     res.sendFile(__dirname + '/views/ebook.html')
