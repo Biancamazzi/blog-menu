@@ -14,9 +14,9 @@
   "dependencies": {
     "firebase-admin": "^8.6.1",
     "firebase-functions": "^3.1.0",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "csv-stringify": "^5.3.3",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.1.6"
